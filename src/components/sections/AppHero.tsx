@@ -14,8 +14,7 @@ export default function AppHero({
 					{logo.type === "iframe" ? (
 						<iframe
 							src={logo.src}
-							className="h-40 w-40 rounded-2xl"
-							frameBorder="0"
+							className="h-40 w-40 rounded-2xl border-0"
 							title="App Logo"
 						/>
 					) : (
