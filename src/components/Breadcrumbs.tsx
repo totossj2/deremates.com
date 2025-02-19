@@ -1,11 +1,5 @@
 import { FiHome, FiChevronRight } from "react-icons/fi";
-
-interface BreadcrumbsProps {
-	items: {
-		label: string;
-		href?: string;
-	}[];
-}
+import type { BreadcrumbsProps } from "types/app";
 
 export default function Breadcrumbs({ items }: BreadcrumbsProps) {
 	return (

@@ -1,8 +1,4 @@
-import type { Feature } from "../types/app";
-
-interface FeaturesProps {
-	features: Feature[];
-}
+import type { FeaturesProps } from "types/app";
 
 export default function Features({ features }: FeaturesProps) {
 	return (

@@ -1,6 +1,4 @@
-interface GithubCornerProps {
-	href: string;
-}
+import type { GithubCornerProps } from "types/app";
 
 export default function GithubCorner({ href }: GithubCornerProps) {
 	return (

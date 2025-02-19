@@ -10,12 +10,20 @@ export const appData: AppData = {
 	title: "Your App Name",
 	description:
 		"Here you can write a brief description of your application. Tell users about its main features and benefits in 1-2 sentences.",
-	screenshots: [
-		"/assets/screenshots/1.png", // Add your screenshot path here
-		"/assets/screenshots/2.png", // Add your screenshot path here
-		"/assets/screenshots/3.png", // Add your screenshot path here
-		"/assets/screenshots/4.png", // Add your screenshot path here
-	],
+	screenshots: {
+		iphone: [
+			"/assets/screenshots/iphone-1.png",
+			"/assets/screenshots/iphone-2.png",
+			"/assets/screenshots/iphone-3.png",
+			// ...more Iphone screenshotsa
+		],
+		ipad: [
+			"/assets/screenshots/ipad-1.png",
+			"/assets/screenshots/ipad-2.png",
+			"/assets/screenshots/ipad-3.png",
+			// ...more iPad screenshots
+		],
+	},
 	features: [
 		{
 			title: "Main Feature",

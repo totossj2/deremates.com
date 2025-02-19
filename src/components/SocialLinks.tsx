@@ -1,8 +1,4 @@
-import type { SocialLink } from "../types/app";
-
-interface SocialLinksProps {
-	links: SocialLink[];
-}
+import type { SocialLinksProps } from "types/app";
 
 export default function SocialLinks({ links }: SocialLinksProps) {
 	return (

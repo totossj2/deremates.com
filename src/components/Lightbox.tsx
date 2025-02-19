@@ -1,35 +1,37 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FiX, FiChevronLeft, FiChevronRight } from "react-icons/fi";
-
-interface LightboxProps {
-	images: string[];
-}
+import type { LightboxProps } from "../types/app";
 
 declare global {
 	interface Window {
-		openLightbox: (index: number) => void;
+		openLightbox: (index: number, device: "iphone" | "ipad") => void;
 	}
 }
 
 export default function Lightbox({ images }: LightboxProps) {
 	const [isOpen, setIsOpen] = useState(false);
 	const [currentIndex, setCurrentIndex] = useState(0);
+	const [activeDevice, setActiveDevice] = useState<"iphone" | "ipad">("iphone");
+	const currentImages = images[activeDevice];
 
 	useEffect(() => {
-		window.openLightbox = (index: number) => {
+		window.openLightbox = (index: number, device: "iphone" | "ipad") => {
 			setCurrentIndex(index);
+			setActiveDevice(device);
 			setIsOpen(true);
 		};
 	}, []);
 
 	const handlePrevious = useCallback(() => {
-		setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
-	}, [images.length]);
+		setCurrentIndex(
+			(prev) => (prev - 1 + currentImages.length) % currentImages.length,
+		);
+	}, [currentImages.length]);
 
 	const handleNext = useCallback(() => {
-		setCurrentIndex((prev) => (prev + 1) % images.length);
-	}, [images.length]);
+		setCurrentIndex((prev) => (prev + 1) % currentImages.length);
+	}, [currentImages.length]);
 
 	useEffect(() => {
 		const handleKeyDown = (event: KeyboardEvent) => {
@@ -69,7 +71,7 @@ export default function Lightbox({ images }: LightboxProps) {
 					</button>
 
 					<img
-						src={images[currentIndex]}
+						src={currentImages[currentIndex]}
 						alt={`Screenshot ${currentIndex + 1}`}
 						className="max-h-[90vh] max-w-[90vw] object-contain"
 					/>
@@ -83,7 +85,7 @@ export default function Lightbox({ images }: LightboxProps) {
 					</button>
 
 					<div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2">
-						{images.map((image, index) => (
+						{currentImages.map((image, index) => (
 							<button
 								type="button"
 								key={image}

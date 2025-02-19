@@ -1,11 +1,5 @@
 import { FaApple, FaGooglePlay } from "react-icons/fa";
-import type { StoreLinks } from "../types/app";
-
-interface AppHeroProps {
-	title: string;
-	description: string;
-	storeLinks: StoreLinks;
-}
+import type { AppHeroProps } from "types/app";
 
 export default function AppHero({
 	title,
