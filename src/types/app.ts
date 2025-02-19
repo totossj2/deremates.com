@@ -17,9 +17,9 @@ export interface StoreLinks {
 }
 
 export interface SocialLink {
-  url: string;
-  icon: IconType;
-  label: string;
+	url: string;
+	icon: IconType;
+	label: string;
 }
 
 export interface AppData {
