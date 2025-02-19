@@ -20,7 +20,7 @@
 - 🚀 Built with Astro and React
 - 🎯 SEO-friendly
 - 📝 Markdown support for Privacy & Terms
-- 🖼️ Image lightbox gallery
+- 🖼️ Interactive screenshot gallery with device switching (iPhone/iPad)
 - 🔧 Easy to customize
 - 📦 Zero configuration deployment
 
@@ -51,12 +51,30 @@
    // Update app information
    title: "Your App Name"
    description: "Your app description"
+   screenshots: {
+     iphone: [
+       "/assets/screenshots/iphone/1.png",
+       // Add more iPhone screenshots
+     ],
+     ipad: [
+       "/assets/screenshots/ipad/1.png",
+       // Add more iPad screenshots
+     ]
+   }
    features: [] // Add your features
    faqs: [] // Add your FAQs
    storeLinks: {
      apple: "your-app-store-link",
      google: "your-play-store-link"
    }
+   socialLinks: [
+     {
+       url: "https://instagram.com/your-account",
+       icon: RiInstagramFill,
+       label: "Instagram"
+     },
+     // Add more social links
+   ]
    ```
 
 2. **Legal Pages** (`src/content/`):
@@ -65,7 +83,8 @@
 
 3. **Images & Assets** (`public/assets/`):
    - `logo.png` - Your app icon (160x160px recommended)
-   - `screenshots/` - App screenshots (9:16 ratio recommended)
+   - `screenshots/iphone/` - iPhone screenshots (9:16 ratio recommended)
+   - `screenshots/ipad/` - iPad screenshots (4:3 ratio recommended)
 
 2. **Layout & Components**:
    - Main layout: `src/layouts/Layout.astro`

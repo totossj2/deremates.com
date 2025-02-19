@@ -1,4 +1,4 @@
-import type {FAQProps } from "types/app";
+import type { FAQProps } from "types/app";
 
 export default function FAQ({ items }: FAQProps) {
 	return (

@@ -10,17 +10,21 @@ export const appData: AppData = {
 	title: "Your App Name",
 	description:
 		"Here you can write a brief description of your application. Tell users about its main features and benefits in 1-2 sentences.",
+	logo: {
+		type: "iframe",
+		src: "https://api.bohd4n.me/embed/d92TevY2lQhnQnC/emoji1",
+	},
 	screenshots: {
 		iphone: [
-			"/assets/screenshots/iphone-1.png",
-			"/assets/screenshots/iphone-2.png",
-			"/assets/screenshots/iphone-3.png",
+			"/assets/screenshots/iphone/1.png",
+			"/assets/screenshots/iphone/2.png",
+			"/assets/screenshots/iphone/3.png",
 			// ...more Iphone screenshotsa
 		],
 		ipad: [
-			"/assets/screenshots/ipad-1.png",
-			"/assets/screenshots/ipad-2.png",
-			"/assets/screenshots/ipad-3.png",
+			"/assets/screenshots/ipad/1.png",
+			"/assets/screenshots/ipad/2.png",
+			"/assets/screenshots/ipad/3.png",
 			// ...more iPad screenshots
 		],
 	},

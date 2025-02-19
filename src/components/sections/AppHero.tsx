@@ -5,22 +5,26 @@ export default function AppHero({
 	title,
 	description,
 	storeLinks,
+	logo,
 }: AppHeroProps) {
 	return (
 		<div className="mb-16 flex flex-col md:flex-row gap-8 min-h-[192px]">
 			<div className="flex-shrink-0">
 				<div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 w-[192px]">
-					<iframe
-						src="https://api.bohd4n.me/embed/d92TevY2lQhnQnC/emoji1"
-						className="h-40 w-40 rounded-2xl"
-						frameBorder="0"
-						title="App Logo"
-					/>
-					{/* <img
-						src="/assets/app-icon.png"
-						alt="App Icon"
-						className="h-40 w-40 rounded-2xl shadow-lg"
-					/> */}
+					{logo.type === "iframe" ? (
+						<iframe
+							src={logo.src}
+							className="h-40 w-40 rounded-2xl"
+							frameBorder="0"
+							title="App Logo"
+						/>
+					) : (
+						<img
+							src={logo.src}
+							alt="App Icon"
+							className="h-40 w-40 rounded-2xl shadow-lg"
+						/>
+					)}
 				</div>
 			</div>
 

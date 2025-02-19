@@ -1,5 +1,5 @@
 import type React from "react";
-import { appData } from "../data/appData";
+import { appData } from "../../data/appData";
 
 const Footer: React.FC = () => {
 	return (

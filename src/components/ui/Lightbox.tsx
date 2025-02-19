@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FiX, FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import type { LightboxProps } from "../types/app";
+import type { LightboxProps } from "../../types/app";
 
 declare global {
 	interface Window {

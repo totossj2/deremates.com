@@ -1,19 +1,19 @@
 ---
 import Layout from "@layouts/Layout.astro";
-import AppHero from "@components/AppHero";
-import Screenshots from "@components/Screenshots";
-import Features from "@components/Features";
-import FAQ from "@components/FAQ";
-import Lightbox from "@components/Lightbox";
-import SocialLinks from "@components/SocialLinks";
+import AppHero from "@components/sections/AppHero";
+import Screenshots from "@components/sections/Screenshots";
+import Features from "@components/sections/Features";
+import FAQ from "@components/sections/FAQ";
+import Lightbox from "@components/ui/Lightbox";
+import SocialLinks from "@components/social/SocialLinks";
 import { appData } from "../data/appData";
 
-const { title, description, screenshots, features, faqs, storeLinks, socialLinks } = appData;
+const { title, description, screenshots, features, faqs, storeLinks, socialLinks, logo } = appData;
 ---
 
 <Layout title={title} description={description}>
   <main class="min-h-screen max-w-5xl mx-auto px-4 py-8">
-    <AppHero title={title} description={description} storeLinks={storeLinks} />
+    <AppHero title={title} description={description} storeLinks={storeLinks} logo={logo} />
     
     <div class="mb-16">
       <Screenshots images={screenshots} client:load />
