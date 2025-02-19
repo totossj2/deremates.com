@@ -5,9 +5,10 @@ import Screenshots from "@components/Screenshots";
 import Features from "@components/Features";
 import FAQ from "@components/FAQ";
 import Lightbox from "@components/Lightbox";
+import SocialLinks from "@components/SocialLinks";
 import { appData } from "../data/appData";
 
-const { title, description, screenshots, features, faqs, storeLinks } = appData;
+const { title, description, screenshots, features, faqs, storeLinks, socialLinks } = appData;
 ---
 
 <Layout title={title} description={description}>
@@ -21,6 +22,7 @@ const { title, description, screenshots, features, faqs, storeLinks } = appData;
 
     <Features features={features} />
     <FAQ items={faqs} />
+    <SocialLinks links={socialLinks} />
   </main>
 </Layout>
 

@@ -6,7 +6,7 @@ interface FAQProps {
 
 export default function FAQ({ items }: FAQProps) {
 	return (
-		<div className="mb-24">
+		<div className="mb-16">
 			<h2 className="mb-6 text-2xl font-semibold">FAQ</h2>
 			<div className="space-y-4">
 				{items.map((item) => (
@@ -33,8 +33,10 @@ export default function FAQ({ items }: FAQProps) {
 									/>
 								</svg>
 							</summary>
-							<div className="px-6 pb-6 text-gray-400">
-								<p>{item.answer}</p>
+							<div className="px-6 pb-6">
+								<div className="border-t border-white/5 pt-6">
+									<p className="text-gray-400">{item.answer}</p>
+								</div>
 							</div>
 						</details>
 					</div>

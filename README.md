@@ -24,21 +24,6 @@
 - 🔧 Easy to customize
 - 📦 Zero configuration deployment
 
-## 🖼️ Screenshots
-
-<details>
-<summary>Click to expand screenshots</summary>
-
-| Desktop Home         | Mobile Home         |
-|----------------------|---------------------|
-| [Desktop Screenshot] | [Mobile Screenshot] |
-
-| Features Section      | Gallery              |
-|-----------------------|----------------------|
-| [Features Screenshot] | [Gallery Screenshot] |
-
-</details>
-
 ## 🚀 Quick Start
 
 1. **Clone this repository:**
@@ -75,17 +60,18 @@
    ```
 
 2. **Legal Pages** (`src/content/`):
-    - `privacy.md` - Privacy Policy
-    - `terms.md` - Terms of Service
+   - `privacy.md` - Privacy Policy
+   - `terms.md` - Terms of Service
 
 3. **Images & Assets** (`public/assets/`):
-    - `logo.png` - Your app icon (160x160px recommended)
-    - `screenshots/` - App screenshots (9:16 ratio recommended)
+   - `logo.png` - Your app icon (160x160px recommended)
+   - `screenshots/` - App screenshots (9:16 ratio recommended)
 
 2. **Layout & Components**:
-    - Main layout: `src/layouts/Layout.astro`
-    - Components: `src/components/`
-    - Pages: `src/pages/`
+   - Main layout: `src/layouts/Layout.astro`
+   - Components: `src/components/`
+   - Pages: `src/pages/`
+
 
 ## 📝 License
 

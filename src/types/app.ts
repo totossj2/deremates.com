@@ -16,6 +16,12 @@ export interface StoreLinks {
 	google: string;
 }
 
+export interface SocialLink {
+  url: string;
+  icon: IconType;
+  label: string;
+}
+
 export interface AppData {
 	title: string;
 	description: string;
@@ -23,4 +29,5 @@ export interface AppData {
 	features: Feature[];
 	faqs: FAQ[];
 	storeLinks: StoreLinks;
+	socialLinks: SocialLink[];
 }
