@@ -9,7 +9,7 @@
 
 > Modern, responsive landing page template for mobile applications 📱
 
-### 🌟 [Demo](https://mobile.bohd4n.dev)
+### 🌟 [Demo](https://landing.bohd4n.dev)
 
 </div>
 

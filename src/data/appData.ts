@@ -16,15 +16,15 @@ export const appData: AppData = {
 	},
 	screenshots: {
 		iphone: [
-			"/assets/screenshots/iphone/1.png",
-			"/assets/screenshots/iphone/2.png",
-			"/assets/screenshots/iphone/3.png",
+			"screenshots/iphone/1.png",
+			"screenshots/iphone/2.png",
+			"screenshots/iphone/3.png",
 			// ...more Iphone screenshotsa
 		],
 		ipad: [
-			"/assets/screenshots/ipad/1.png",
-			"/assets/screenshots/ipad/2.png",
-			"/assets/screenshots/ipad/3.png",
+			"screenshots/ipad/1.png",
+			"screenshots/ipad/2.png",
+			"screenshots/ipad/3.png",
 			// ...more iPad screenshots
 		],
 	},
