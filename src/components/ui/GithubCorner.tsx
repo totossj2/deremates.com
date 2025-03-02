@@ -5,7 +5,7 @@ export default function GithubCorner({ href }: GithubCornerProps) {
 		<>
 			<a
 				href={href}
-				className="github-corner"
+				className="github-corner fixed top-0 right-0 z-50"
 				aria-label="View source on GitHub"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -14,7 +14,6 @@ export default function GithubCorner({ href }: GithubCornerProps) {
 					width="80"
 					height="80"
 					viewBox="0 0 250 250"
-					className="absolute top-0 right-0 border-0"
 					style={{ fill: "#151513", color: "#fff" }}
 					aria-labelledby="github-corner-title"
 					role="img"
