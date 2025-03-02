@@ -56,7 +56,7 @@ export default function Screenshots({ images }: ScreenshotsProps) {
 									onClick={() => window.openLightbox?.(index, activeDevice)}
 									className="relative flex-shrink-0 overflow-hidden rounded-xl focus:outline-none"
 								>
-									<motion.img
+									<img
 										src={image}
 										alt={`Screenshot ${index + 1}`}
 										className={`rounded-xl border border-white/10 object-cover ${
@@ -65,10 +65,6 @@ export default function Screenshots({ images }: ScreenshotsProps) {
 												: "aspect-[4/3] w-[360px]"
 										}`}
 										loading="lazy"
-										whileHover={{
-											scale: 1.05,
-											transition: { duration: 0.2 },
-										}}
 									/>
 								</motion.button>
 							))}

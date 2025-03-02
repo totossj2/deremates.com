@@ -1,13 +1,19 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Breadcrumbs from "@components/ui/Breadcrumbs";
+import BackToTop from "@components/ui/BackToTop";
 import { marked } from "marked";
+import { appData } from "../data/appData";
 
-const termsContent = await Astro.glob("./content/terms.md");
-const htmlContent = marked(termsContent[0].rawContent());
+// Replace deprecated Astro.glob with import.meta.glob
+const termsModules = import.meta.glob("./content/terms.md", { eager: true });
+const termsContent = Object.values(termsModules)[0] as { rawContent(): string };
+const htmlContent = marked(termsContent.rawContent());
+
+const { title } = appData;
 ---
 
-<Layout title="Terms of Service" description="Terms of Service for the application">
+<Layout title={`${title} · Terms of Service`} description={`Terms of Service for ${title} application - Rules and guidelines for using our service`}>
   <main class="min-h-screen max-w-3xl mx-auto px-4 py-8">
     <Breadcrumbs 
       items={[{ label: "Terms of Service" }]}
@@ -17,6 +23,8 @@ const htmlContent = marked(termsContent[0].rawContent());
       <div set:html={htmlContent} />
     </div>
   </main>
+  
+  <BackToTop client:load />
 </Layout>
 
 <style is:global>

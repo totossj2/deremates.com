@@ -5,7 +5,7 @@ export default function SocialLinks({ links }: SocialLinksProps) {
 		<div className="mb-8">
 			<div className="relative">
 				<div className="absolute inset-0 flex items-center" aria-hidden="true">
-					<div className="w-full border-t border-white/5" />
+					<div className="mx-auto border-t border-white/10" />
 				</div>
 				<div className="relative flex justify-center">
 					<span className="bg-black px-6 text-sm font-medium tracking-wider text-white/50 uppercase">

@@ -12,7 +12,7 @@ export const appData: AppData = {
 		"Here you can write a brief description of your application. Tell users about its main features and benefits in 1-2 sentences.",
 	logo: {
 		type: "iframe",
-		src: "https://api.bohd4n.me/embed/d92TevY2lQhnQnC/emoji1",
+		src: "https://api.bohd4n.me/embed/3pzhXGJ7CAaBA3e/emoji1",
 	},
 	screenshots: {
 		iphone: [

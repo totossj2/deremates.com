@@ -73,7 +73,7 @@ export default function Lightbox({ images }: LightboxProps) {
 					<img
 						src={currentImages[currentIndex]}
 						alt={`Screenshot ${currentIndex + 1}`}
-						className="max-h-[90vh] max-w-[90vw] object-contain"
+						className="max-h-[90vh] max-w-[90vw] object-contain rounded-xl border border-white/10"
 					/>
 
 					<button
