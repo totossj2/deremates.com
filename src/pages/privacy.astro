@@ -5,7 +5,6 @@ import BackToTop from "@components/ui/BackToTop";
 import { marked } from "marked";
 import { appData } from "../data/appData";
 
-// Replace deprecated Astro.glob with import.meta.glob
 const privacyModules = import.meta.glob("./content/privacy.md", {
 	eager: true,
 });

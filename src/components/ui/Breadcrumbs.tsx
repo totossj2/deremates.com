@@ -8,7 +8,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
 				<FiHome className="w-4 h-4" />
 			</a>
 
-			{items.map((item, index) => (
+			{items.map((item) => (
 				<div key={item.label} className="flex items-center space-x-2">
 					<FiChevronRight className="w-4 h-4 text-gray-600" />
 					{item.href ? (
