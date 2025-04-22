@@ -31,8 +31,6 @@ export default function SocialLinks({ links }: SocialLinksProps) {
 					);
 				})}
 			</div>
-
-			v
 		</div>
 	);
 }
