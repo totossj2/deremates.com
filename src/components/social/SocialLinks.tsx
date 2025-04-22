@@ -9,7 +9,7 @@ export default function SocialLinks({ links }: SocialLinksProps) {
 				</div>
 				<div className="relative flex justify-center">
 					<span className="bg-black px-6 text-sm font-medium tracking-wider text-white/50 uppercase">
-						Social Media
+						Seguínos en las redes
 					</span>
 				</div>
 			</div>

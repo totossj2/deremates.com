@@ -10,7 +10,7 @@ export default function Screenshots({ images }: ScreenshotsProps) {
 	return (
 		<div className="mb-16">
 			<div className="mb-6 flex items-center justify-between">
-				<h2 className="text-2xl font-semibold">Screenshots</h2>
+				<h2 className="text-2xl font-semibold">Vista previa</h2>
 				<DeviceToggle activeDevice={activeDevice} onToggle={setActiveDevice} />
 			</div>
 			<div
@@ -59,11 +59,10 @@ export default function Screenshots({ images }: ScreenshotsProps) {
 									<img
 										src={image}
 										alt={`Screenshot ${index + 1}`}
-										className={`rounded-xl border border-white/10 object-cover ${
-											activeDevice === "iphone"
-												? "aspect-[9/16] w-[260px]"
-												: "aspect-[4/3] w-[360px]"
-										}`}
+										className={`rounded-xl border border-white/10 object-cover ${activeDevice === "iphone"
+											? "aspect-[9/16] w-[260px]"
+											: "aspect-[4/3] w-[360px]"
+											}`}
 										loading="lazy"
 									/>
 								</motion.button>

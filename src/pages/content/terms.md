@@ -1,85 +1,86 @@
-# Terms of Service
+# Términos de Servicio
 
-**Effective date:** February 1, 2025
+**Fecha efectiva:** 1 de febrero de 2025
 
-## 1. Acceptance of Terms
+## 1. Aceptación de Términos
 
-By accessing or using our application, you agree to be bound by these Terms of Service and all applicable laws and regulations.
+Al acceder o usar nuestra aplicación, usted acepta estar sujeto a estos Términos de Servicio y todas las leyes y regulaciones aplicables.
 
-## 2. User Account
+## 2. Cuenta de Usuario
 
-### 2.1 Registration
+### 2.1 Registro
 
-- You must provide accurate information
-- You are responsible for maintaining account security
-- Accounts are personal and non-transferable
+- Debe proporcionar información precisa
+- Es responsable de mantener la seguridad de la cuenta
+- Las cuentas son personales e intransferibles
 
-### 2.2 Account Termination
+### 2.2 Terminación de Cuenta
 
-We reserve the right to suspend or terminate accounts that:
+Nos reservamos el derecho de suspender o terminar cuentas que:
 
-- Violate these terms
-- Engage in harmful behavior
-- Remain inactive for extended periods
+- Violen estos términos
+- Participen en comportamiento dañino
+- Permanezcan inactivas por períodos prolongados
 
-## 3. Subscription Terms
+## 3. Términos de Suscripción
 
-### 3.1 Payment
+### 3.1 Pago
 
-- All prices are in USD unless specified otherwise
-- Subscriptions auto-renew unless cancelled
-- Refunds are subject to our refund policy
+- Todos los precios están en USD salvo que se especifique lo contrario
+- Las suscripciones se renuevan automáticamente a menos que se cancelen
+- Los reembolsos están sujetos a nuestra política de reembolso
 
-### 3.2 Cancellation
+### 3.2 Cancelación
 
-- Cancel anytime through account settings
-- Access continues until billing period ends
-- No partial refunds for cancellation
+- Cancele en cualquier momento a través de la configuración de la cuenta
+- El acceso continúa hasta que finalice el período de facturación
+- No hay reembolsos parciales por cancelación
 
-## 4. Acceptable Use
+## 4. Uso Aceptable
 
-### 4.1 You Agree Not To
+### 4.1 Usted Acepta No
 
-- Violate any laws
-- Infringe intellectual property rights
-- Share harmful content
-- Attempt to breach security
+- Violar ninguna ley
+- Infringir derechos de propiedad intelectual
+- Compartir contenido dañino
+- Intentar vulnerar la seguridad
 
-### 4.2 Content Guidelines
+### 4.2 Pautas de Contenido
 
-Users must not upload content that is:
+Los usuarios no deben subir contenido que sea:
 
-- Illegal or harmful
-- Discriminatory
-- Spam or misleading
-- Malicious software
+- Ilegal o dañino
+- Discriminatorio
+- Spam o engañoso
+- Software malicioso
 
-## 5. Intellectual Property
+## 5. Propiedad Intelectual
 
-- App content is protected by copyright
-- Users retain rights to their content
-- Limited license granted for app features
+- El contenido de la app está protegido por derechos de autor
+- Los usuarios conservan los derechos de su contenido
+- Licencia limitada otorgada para funciones de la app
 
-## 6. Disclaimers
+## 6. Descargos de Responsabilidad
 
-### 6.1 Service Availability
+### 6.1 Disponibilidad del Servicio
 
-- We strive for 99.9% uptime
-- Maintenance windows may affect access
-- No guarantee of uninterrupted service
+- Nos esforzamos por un tiempo de actividad del 99.9%
+- Las ventanas de mantenimiento pueden afectar el acceso
+- Sin garantía de servicio ininterrumpido
 
-### 6.2 Warranty
+### 6.2 Garantía
 
-Service provided "as is" without warranties of:
+Servicio proporcionado "tal cual" sin garantías de:
 
-- Merchantability
-- Fitness for purpose
-- Non-infringement
+- Comerciabilidad
+- Idoneidad para un propósito
+- No infracción
 
-## 7. Contact Information
+## 7. Información de Contacto
 
-For support or legal inquiries:
+Para soporte o consultas legales:
 
-- Email: legal@example.com
-- Address: 123 Tech Street, Suite 100
-- Phone: (555) 123-4567
+- Email: legal@deremate.com
+- Dirección: Lima 757, C1073 Cdad. Autónoma de Buenos Aires
+- Teléfono: (555) 123-4567
+

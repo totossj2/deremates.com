@@ -1,4 +1,4 @@
-import { FiBox, FiStar, FiZap } from "react-icons/fi";
+import { FiMap, FiCamera, FiBell } from "react-icons/fi";
 import type { AppData } from "../types/app";
 import {
 	RiInstagramFill,
@@ -7,57 +7,58 @@ import {
 } from "react-icons/ri";
 
 export const appData: AppData = {
-	title: "Your App Name",
+	title: "DeRemate.com",
 	description:
-		"Here you can write a brief description of your application. Tell users about its main features and benefits in 1-2 sentences.",
+		"La app de logística de DeRemate.com optimiza las entregas permitiendo a los repartidores gestionar rutas de forma eficiente mediante escaneo de códigos QR, navegación en tiempo real y confirmación segura de entrega.",
 	logo: {
 		type: "iframe",
-		src: "https://api.bohd4n.me/embed/3pzhXGJ7CAaBA3e/emoji1",
+		src: "https://i.pinimg.com/originals/bc/85/0f/bc850fcedb45dce673057d546b0b2810.gif",
 	},
 	screenshots: {
 		iphone: [
 			"screenshots/iphone/1.png",
 			"screenshots/iphone/2.png",
 			"screenshots/iphone/3.png",
-			// ...more Iphone screenshotsa
+			"screenshots/iphone/4.png",
+			"screenshots/iphone/5.png",
+			"screenshots/iphone/6.png",
+			"screenshots/iphone/7.png",
+			"screenshots/iphone/8.png",
 		],
 		ipad: [
-			"screenshots/ipad/1.png",
-			"screenshots/ipad/2.png",
-			"screenshots/ipad/3.png",
-			// ...more iPad screenshots
+			"screenshots/ipad/ipad_1.jpg",
 		],
 	},
 	features: [
 		{
-			title: "Main Feature",
-			description: "Describe your main feature here. What makes it special?",
-			icon: FiStar,
+			title: "Gestión Eficiente de Rutas",
+			description: "Los repartidores pueden escanear códigos QR para activar y gestionar sus rutas de entrega de manera rápida y precisa.",
+			icon: FiMap,
 		},
 		{
-			title: "Another Feature",
-			description: "What else can your app do? Tell users about it here.",
-			icon: FiZap,
+			title: "Seguimiento y Confirmación",
+			description: "Cada entrega se confirma con un código único proporcionado por el cliente, asegurando un proceso seguro y confiable.",
+			icon: FiCamera,
 		},
 		{
-			title: "One More Feature",
-			description: "Add another key feature of your application here.",
-			icon: FiBox,
-		},
+			title: "Notificaciones en Tiempo Real",
+			description: "Recibe alertas instantáneas sobre nuevas rutas disponibles o cambios en las entregas pendientes.",
+			icon: FiBell,
+		}
 	],
 	faqs: [
 		{
-			question: "Question 1?",
-			answer: "Answer to question 1 goes here.",
+			question: "¿Cómo activo una ruta de entrega?",
+			answer: "Para activar una ruta, escanea el código QR asociado con el paquete desde la aplicación y sigue las instrucciones en pantalla.",
 		},
 		{
-			question: "Question 2?",
-			answer: "Answer to question 2 goes here.",
+			question: "¿Qué hago si el código QR no funciona?",
+			answer: "Si tienes problemas con el escaneo, intenta limpiar la cámara de tu dispositivo o ingresar el código manualmente si la opción está disponible.",
 		},
 		{
-			question: "Question 3?",
-			answer: "Answer to question 3 goes here.",
-		},
+			question: "¿Cómo confirmo una entrega?",
+			answer: "Una vez que llegues al destino, ingresa el código de confirmación proporcionado por el cliente para completar la entrega.",
+		}
 	],
 	storeLinks: {
 		apple: "#", // Replace with your App Store link

@@ -1,63 +1,64 @@
-# Privacy Policy
+# Política de Privacidad
 
-**Last updated:** February 1, 2025
+**Última actualización:** 1 de febrero de 2025
 
-## Information We Collect
+## Información que Recopilamos
 
-### Usage Data
+### Datos de Uso
 
-We collect anonymous usage data to improve our service, including:
+Recopilamos datos de uso anónimos para mejorar nuestro servicio, incluyendo:
 
-- App performance metrics
-- Feature usage statistics
-- Device type and operating system
-- Crash reports
+- Métricas de rendimiento de la aplicación
+- Estadísticas de uso de funciones
+- Tipo de dispositivo y sistema operativo
+- Informes de errores
 
-### User Content
+### Contenido del Usuario
 
-We store only the content you explicitly create and save within the app.
+Almacenamos únicamente el contenido que usted crea y guarda explícitamente en la aplicación.
 
-## How We Use Your Information
+## Cómo Utilizamos su Información
 
-### Service Improvement
+### Mejora del Servicio
 
-- Analyzing app performance
-- Identifying and fixing bugs
-- Developing new features
-- Optimizing user experience
+- Análisis del rendimiento de la aplicación
+- Identificación y corrección de errores
+- Desarrollo de nuevas funciones
+- Optimización de la experiencia del usuario
 
-### Security
+### Seguridad
 
-We implement industry-standard security measures to protect your data:
+Implementamos medidas de seguridad estándar de la industria para proteger sus datos:
 
-- End-to-end encryption
-- Regular security audits
-- Secure data storage
+- Cifrado de extremo a extremo
+- Auditorías de seguridad regulares
+- Almacenamiento seguro de datos
 
-## Data Sharing
+## Compartir Datos
 
-We **do not** sell your personal information to third parties. Data sharing is limited to:
+**No** vendemos su información personal a terceros. El intercambio de datos se limita a:
 
-- Essential service providers
-- Legal requirements
-- User-initiated sharing
+- Proveedores de servicios esenciales
+- Requisitos legales
+- Compartición iniciada por el usuario
 
-## Your Rights
+## Sus Derechos
 
-You have the right to:
+Usted tiene derecho a:
 
-- Access your data
-- Request data deletion
-- Opt out of analytics
-- Export your data
+- Acceder a sus datos
+- Solicitar la eliminación de datos
+- Optar por no participar en análisis
+- Exportar sus datos
 
-## Changes to This Policy
+## Cambios en esta Política
 
-We may update this privacy policy from time to time. Changes will be notified through the app or via email.
+Podemos actualizar esta política de privacidad periódicamente. Los cambios serán notificados a través de la aplicación o por correo electrónico.
 
-## Contact Us
+## Contáctenos
 
-If you have questions about this privacy policy, please contact us at:
+Si tiene preguntas sobre esta política de privacidad, por favor contáctenos en:
 
-- Email: privacy@example.com
-- Support: help.example.com
+- Correo electrónico: privacy@deremate.com
+- Soporte: support@deremate.com
+

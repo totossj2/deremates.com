@@ -10,20 +10,14 @@ export default function AppHero({
 	return (
 		<div className="mb-16 flex flex-col md:flex-row gap-8">
 			<div className="flex-shrink-0 md:self-center">
-				<div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 w-[192px] h-[192px] flex items-center justify-center">
-					{logo.type === "iframe" ? (
-						<iframe
-							src={logo.src}
-							className="h-40 w-40 rounded-2xl border-0"
-							title="App Logo"
-						/>
-					) : (
-						<img
-							src={logo.src}
-							alt="App Icon"
-							className="h-40 w-40 rounded-2xl shadow-lg object-cover"
-						/>
-					)}
+				<div className="rounded-2xl border border-white/10 bg-white/[0.03] p-3 w-[192px] h-[192px] flex items-center justify-center">
+
+					<img
+						src='/logo.png'
+						alt="App Icon"
+						className="w-full h-full rounded-lg object-cover"
+					/>
+
 				</div>
 			</div>
 
@@ -39,13 +33,13 @@ export default function AppHero({
 					<StoreButton
 						store="apple"
 						href={storeLinks.apple}
-						label="Download on the"
+						label="Descarga en"
 						storeName="App Store"
 					/>
 					<StoreButton
 						store="google"
 						href={storeLinks.google}
-						label="Get it on"
+						label="Descarga en"
 						storeName="Google Play"
 					/>
 				</div>
@@ -76,9 +70,8 @@ function StoreButton({
 		>
 			<div className="flex items-center justify-center w-7 h-7">
 				<Icon
-					className={`text-gray-300 transition-transform duration-300 group-hover:scale-110 group-hover:text-white ${
-						store === "apple" ? "w-[22px] h-[22px]" : "w-5 h-5"
-					}`}
+					className={`text-gray-300 transition-transform duration-300 group-hover:scale-110 group-hover:text-white ${store === "apple" ? "w-[22px] h-[22px]" : "w-5 h-5"
+						}`}
 				/>
 			</div>
 			<span className="text-left">
