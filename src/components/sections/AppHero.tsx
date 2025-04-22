@@ -60,7 +60,6 @@ function StoreButton({
 	storeName: string;
 }) {
 	const Icon = store === "apple" ? FaApple : FaGooglePlay;
-
 	return (
 		<a
 			href={href}
