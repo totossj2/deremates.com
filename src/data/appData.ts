@@ -4,6 +4,7 @@ import {
 	RiInstagramFill,
 	RiTelegram2Fill,
 	RiTwitterXFill,
+	RiGithubFill
 } from "react-icons/ri";
 
 export const appData: AppData = {
@@ -79,6 +80,11 @@ export const appData: AppData = {
 			url: "#",
 			icon: RiTwitterXFill,
 			label: "Twitter",
+		},
+		{
+			url: "#",
+			icon: RiGithubFill,
+			label: "GitHub",
 		},
 	],
 };
